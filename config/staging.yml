@@ -1,0 +1,29 @@
+# Playwright
+headless: false
+slow_mo: 500
+channel: chrome
+timeout: 10000
+args: ['--window-size=1366,768', '--start-maximized']
+
+# Storefront
+storefront_url: https://ccv2-s1-storefront.dreams.co.uk/
+storefront_login_username: mark.johnson@kps.com
+storefront_login_password: Thinkpad1969!
+storefront_search_category: Beds
+storefront_search_product: Ealing Upholstered Ottoman Bed Frame
+storefront_search_sku: 251-00315
+storefront_payment_card_Number: 4444333322221111
+storefront_payment_card_Name: Mark Johnson
+storefront_payment_card_Expiry_month: 01
+storefront_payment_card_Expiry_year: 29
+storefront_payment_card_CVV: 555
+
+# Backoffice
+backoffice_url:
+backoffice_login_username:
+backoffice_login_password:
+
+# Admin console
+hac_url:
+hac_login_username:
+hac_login_password:
